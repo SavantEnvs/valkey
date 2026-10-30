@@ -1,0 +1,6 @@
+on
++@all
+-@dangerous
++@keyspace
+-@write
+flushall

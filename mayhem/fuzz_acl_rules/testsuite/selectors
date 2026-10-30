@@ -1,0 +1,8 @@
+on
+~read:*
+%R~read:*
+%W~write:*
+(+set ~write:*)
+(+get %R~other:*)
++get
+set write:1 v

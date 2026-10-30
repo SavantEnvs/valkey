@@ -1,0 +1,8 @@
+on
+resetkeys
+~data:*
+-@all
++client|id
++config|get
++acl|whoami
+config get maxmemory

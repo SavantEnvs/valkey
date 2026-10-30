@@ -1,0 +1,6 @@
+on
+>secret
+~key:*
++@read
+-debug
+get key:1

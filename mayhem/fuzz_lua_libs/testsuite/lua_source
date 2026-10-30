@@ -1,0 +1,1 @@
+local t = {} for i = 1, 10 do t[#t+1] = redis.call('GET', KEYS[i]) end return cjson.encode(t)

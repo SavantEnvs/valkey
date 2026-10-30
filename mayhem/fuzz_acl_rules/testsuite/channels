@@ -1,0 +1,6 @@
+on
+resetchannels
+&news.*
++publish
++subscribe
+publish news.sport hi

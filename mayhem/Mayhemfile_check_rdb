@@ -1,0 +1,7 @@
+project: savantenvs/valkey
+target: check_rdb
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar   # accumulation (REQUIRED)
+  - file://mayhem/check_rdb/testsuite                                          # per-target starter seeds
+cmds:
+  - cmd: /mayhem/mayhem/bin/valkey-check-rdb @@

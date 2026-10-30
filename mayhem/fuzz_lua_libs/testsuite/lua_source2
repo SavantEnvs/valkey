@@ -1,0 +1,1 @@
+function f(a, ...) local s = string.format('%d-%s', a, tostring(...)) return s:rep(2) end return f(ARGV[1], 'x')

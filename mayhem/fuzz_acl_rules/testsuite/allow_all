@@ -1,0 +1,6 @@
+on
+nopass
+~*
+&*
++@all
+set foo bar

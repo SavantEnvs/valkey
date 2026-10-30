@@ -1,0 +1,8 @@
+project: savantenvs/valkey
+target: fuzz_lua_libs
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar   # accumulation (REQUIRED)
+  - file://mayhem/fuzz_lua_libs/testsuite                                          # per-target starter seeds
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_lua_libs
+    libfuzzer: true

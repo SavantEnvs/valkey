@@ -1,0 +1,7 @@
+on
+reset
+allkeys
+allchannels
+allcommands
+sanitize-payload
+get a
